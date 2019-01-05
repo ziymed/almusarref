@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+/*--------------------main---------------------*/
+
+body {
+	margin:0px;
+	direction:rtl;
+	font-family:Tahoma;
+	font-size:12px;
+	font-weight:normal;
+}
+img {
+	border:0px;
+}
+a { 
+outline:none;
+cursor:pointer;
+}
+/*-------------------head-------------------*/
+.container {
+	float:right;
+	width:100%;
+}
+.head {
+	float:right;
+	width:100%;
+	background:url(../images/head_background.jpg) repeat-x;
+	height:44px;
+	padding:0px;
+	overflow:hidden;
+}
+.head h1 {
+	background:url(../images/top_icon.jpg) no-repeat right top;
+	width:156px;
+	float:right;
+	text-indent:-1000px;
+	margin:0px;
+	padding:0px;
+	height:35px;
+
+}
+.head span {
+	display:block;
+	float:left;
+	width:28px;
+	height:35px;
+	padding:0px;
+	margin:0px;
+}
+.head span a {
+	display:block;
+	float:left;
+	width:28px;
+	height:35px;
+	background:url(../images/espace_icon.jpg) no-repeat left;
+	text-indent:-10000px;
+	text-decoration:none;
+	padding:0px;
+	margin:0px;
+}
+/*-------------------content-------------------*/
+.content {
+	float:right;
+	width:100%;
+	background: url(../images/quote_back.jpg) repeat-x #FFFFFF;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 0 0 0;
+}
+
+.author {
+	float:left;
+	padding:0 0 0 10px;
+}
+
+.author h3 {
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/buttons_curve_left.jpg) no-repeat left top;
+	height:31px;
+	font-size:15px;
+	color:#4c4d42;
+	text-align:right;
+	padding:7px 10px 0 0;
+	margin:0;	
+}
+
+.quote_top {
+background:url(../images/quote_top.gif) no-repeat right;
+margin:0 20px 0 0;
+height:15px;
+}
+.quote_bottom {
+background:url(../images/quote_bottom.gif) no-repeat left;
+margin:0 0 0 20px;
+height:15px;
+}
+
+.next-button {
+	float:left;
+	width:81px;
+	height:25px;
+	background:url(../images/next-button.gif) no-repeat top ;
+	text-indent:-10000px;
+	text-decoration:none;
+}
+.next-button a{
+	text-decoration:none;
+}
+.next-button:hover {
+	background-position:0 -25px;
+}

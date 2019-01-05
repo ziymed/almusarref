@@ -1,0 +1,26 @@
+application: musaref
+version: 1
+runtime: python
+api_version: 1
+default_expiration: "1h"
+
+
+handlers:
+  
+- url: /stylesheets
+  static_dir: Public/style_sheets
+  
+- url: /javascripts
+  static_dir: Public/javascripts
+  
+- url: /images
+  static_dir: Public/images
+
+- url: /random
+  script: beta.py
+  
+- url: /mosaref
+  script: mosaref.py  
+
+- url: /
+  script: al-musarref.py
